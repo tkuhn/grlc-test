@@ -1,0 +1,18 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX schema: <http://schema.org/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+  SELECT DISTINCT ?band ?album ?v11 ?member
+  WHERE {
+    
+    ?band rdf:type dbo:Band.
+?album rdf:type schema:MusicAlbum.
+?album dbo:artist ?band.
+?band dbo:bandMember ?member.
+OPTIONAL { ?album dbo:releaseDate ?v11  }.
+
+    
+  }
+  
+  
+  
+  LIMIT 10000
