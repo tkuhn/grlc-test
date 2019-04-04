@@ -14,7 +14,8 @@
     "?band rdf:type dbo:Band",
     "?album rdf:type schema:MusicAlbum",
     "?album dbo:artist ?band",
-    "?band dbo:bandMember ?member"
+    "?band dbo:bandMember ?member",
+    "?band dbo:genre dbr:Ska_Punk"
   ],
   "$limit": 10000,
   "grlc": "#+ summary: Testing SPARQL Transformer in grlc\n#+ endpoint: http://dbpedia.org/sparql\n#+ tags:\n#+   - json\n#+ method: GET\n#+ pagination: 50",
