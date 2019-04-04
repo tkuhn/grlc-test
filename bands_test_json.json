@@ -7,7 +7,7 @@
         "date": "$dbo:releaseDate"
       },
       "member": {
-        "id": "?member",
+        "id": "?member"
       }
 
   },
