@@ -15,4 +15,4 @@ OPTIONAL { ?album dbo:releaseDate ?v11  }.
   
   
   
-  LIMIT 10000
+  LIMIT 1000
