@@ -2,7 +2,8 @@
   "proto": {
       "id": "?band",
       "album": {
-        "id": "?album"
+        "id": "?album",
+        "date": "$dbo:releaseDate"
       },
       "member": {
         "id": "?member"
