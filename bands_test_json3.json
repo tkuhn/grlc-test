@@ -15,7 +15,7 @@
     "?album rdf:type schema:MusicAlbum",
     "?album dbo:artist ?band",
     "?band dbo:bandMember ?member",
-    "?band dbo:genre dbr:ExperimentalRock"
+    "?band dbo:genre dbr:Experimental_Rock"
   ],
   "$limit": 10000,
   "grlc": "#+ summary: Testing SPARQL Transformer in grlc\n#+ endpoint: http://dbpedia.org/sparql\n#+ tags:\n#+   - json\n#+ method: GET\n#+ pagination: 50",
