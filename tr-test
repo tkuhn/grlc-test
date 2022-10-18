@@ -1,0 +1,18 @@
+{
+  "proto": {
+      "id": "?service",
+      "name": "?label"
+  },
+  "$where": [
+    "?service rdf:type npx:NanopubService",
+    "?service rdfs:label ?label"
+  ],
+  "$orderby": [ "?service" ],
+  "grlc": "#+ summary: Test\n#+ endpoint: https://virtuoso.nps.petapico.org/sparql\n#+ tags:\n#+   - json\n#+ method: GET\n#+ pagination: 50",
+  "$prefixes": {
+    "schema" : "http://schema.org/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "npx" : "http://purl.org/nanopub/x/"
+  }
+}
