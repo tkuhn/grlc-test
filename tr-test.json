@@ -1,10 +1,9 @@
 {
   "proto": {
-      "id": "?a",
-      "class": "?c"
+      "id": "?a"
   },
   "$where": [
-    "?a rdf:type ?c"
+    "?a rdf:type <http://www.w3.org/2000/01/rdf-schema#Datatype>"
   ],
   "$orderby": [ "?b" ],
   "grlc": "#+ summary: test\n#+ endpoint: https://virtuoso.nps.petapico.org/sparql\n#+ method: GET\n#+ pagination: 1000\n#+ endpoint_in_url: False",
