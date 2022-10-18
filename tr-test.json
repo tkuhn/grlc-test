@@ -3,7 +3,7 @@
       "id": "?a"
   },
   "$where": [
-    "?a rdf:type <http://www.w3.org/2000/01/rdf-schema#Datatype>"
+    "?a rdf:type <http://purl.org/nanopub/x/NanopubService>"
   ],
   "$orderby": [ "?b" ],
   "grlc": "#+ summary: test\n#+ endpoint: https://virtuoso.nps.petapico.org/sparql\n#+ method: GET\n#+ pagination: 1000\n#+ endpoint_in_url: False",
