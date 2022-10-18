@@ -1,11 +1,9 @@
 {
   "proto": {
-      "id": "?service",
-      "name": "?label"
+      "id": "?service"
   },
   "$where": [
-    "?service rdf:type npx:NanopubService",
-    "?service rdfs:label ?label"
+    "?service rdf:type npx:NanopubService"
   ],
   "$orderby": [ "?service" ],
   "grlc": "#+ summary: test\n#+ endpoint: https://virtuoso.nps.petapico.org/sparql\n#+ method: GET\n#+ pagination: 1000\n#+ endpoint_in_url: False",
