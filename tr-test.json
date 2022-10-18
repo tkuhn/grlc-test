@@ -1,6 +1,7 @@
 {
   "proto": {
-      "id": "?a"
+      "id": "?a",
+      "class": "?b"
   },
   "$where": [
     "?a rdf:type ?c"
