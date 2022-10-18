@@ -4,7 +4,7 @@
       "name": "?label"
   },
   "$where": [
-    "?service rdf:type npx:NanopubService"
+    "?service rdf:type npx:NanopubService",
     "?service rdfs:label ?label"
   ],
   "$orderby": [ "?service" ],
