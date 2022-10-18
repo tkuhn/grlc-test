@@ -4,8 +4,7 @@
       "name": "?label"
   },
   "$where": [
-    "?service rdf:type npx:NanopubService",
-    "?service rdfs:label ?label"
+    "?service rdf:type npx:NanopubService"
   ],
   "$orderby": [ "?service" ],
   "grlc": "#+ summary: Test\n#+ endpoint: https://virtuoso.nps.petapico.org/sparql\n#+ tags:\n#+   - json\n#+ method: GET\n#+ pagination: 50",
