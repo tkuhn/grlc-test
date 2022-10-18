@@ -6,7 +6,7 @@
   "$where": [
     "?a rdf:type ?c"
   ],
-  "$orderby": [ "?service" ],
+  "$orderby": [ "?a" ],
   "grlc": "#+ summary: test\n#+ endpoint: https://virtuoso.nps.petapico.org/sparql\n#+ method: GET\n#+ pagination: 1000\n#+ endpoint_in_url: False",
   "$prefixes": {
     "schema" : "http://schema.org/",
